@@ -4,7 +4,7 @@
 
 This project is the first step for beginners in comprehending and understanding the working of functions, datatypes, loops, etc. in solidity and using these basics to create a token.
 
-# Description
+# Description 
 
 This is a simple program whuch is written in solidity that is used in creating smart contracts in Etherium based blockchain. In this prograsm we have created a token named LCOIN and given it an abbriviating and total supply value. Here, we use two functions, burn an mint functions, which are used to burn or mint the tokens that we have created int balances of th total supply of the account. This program is a very simple representation of ho to create a token using solidity.
 
