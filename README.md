@@ -13,10 +13,6 @@ This is a simple program whuch is written in solidity that is used in creating s
 Run the following program on a online IDE which supports solidiy ,  you can use REMIX which is an online IDE which allows you to code in solidity and deploy your smart contract.
 You can simply visit https://remix.ethereum.org/. You can create a new file and copy paste the following code and deploy it.
 You can use this code template to make your own token.
----solidity
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.9;
-contract MyToken {
 
     // public variables here
      string public tokenName = "LCOIN";
@@ -36,8 +32,11 @@ contract MyToken {
         balances[accntaddr] -= val;
          }
      }
-}
----
+You may compile the code simply by clicking Ctrl+S , then you can deploy the smart contract by clicking the deploy option on the lift sde of your screen. Once the smart contract is deployed you may give the parameters to the fuctions and play around and check how the code works.
+
+## Authors
+
+Mokshith P @mokshithlucky06@gmail.com
 
 ## License
 
