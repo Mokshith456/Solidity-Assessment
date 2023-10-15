@@ -40,4 +40,4 @@ Mokshith P @mokshithlucky06@gmail.com
 
 ## License
 
-This smart contract is licensed under the [MIT License](LICENSE). See the [`LICENSE`](LICENSE) file for more details.
+This smart contract is licensed under the [MIT License](LICENSE).
