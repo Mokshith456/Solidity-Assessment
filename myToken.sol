@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
+pragma solidity 0.8.9;
 
 /*
        REQUIREMENTS
@@ -20,19 +20,19 @@ contract MyToken {
     // public variables here
      string public tokenName = "LCOIN";
      string public tokenAbbriv = "LCN";
-     uint public totalSupply = 0;
+     uint public totalSupply = 250;
     // mapping variable here
      mapping(address => uint) public balances;
     // mint function
-     function mint (address _address, uint _value) public {
-        totalSupply += _value;
-        balances[_address] += _value;
+     function mint (address accntaddr, uint val) public {
+        totalSupply += val;
+        balances[accntaddr] += val;
      }
     // burn function
-       function burn (address _address, uint _value) public {
-        if(balances[_address]>= _value){
-        totalSupply -= _value;
-        balances[_address] -= _value;
+       function burn (address accntaddr, uint val) public {
+        if(balances[accntaddr]>= val){
+        totalSupply -= val;
+        balances[accntaddr] -= val;
          }
      }
 }
