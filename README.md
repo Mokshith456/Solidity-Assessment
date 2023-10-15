@@ -1,7 +1,3 @@
-Here's a corrected version of the provided description and Solidity smart contract code with spelling and grammar improvements:
-
----
-
 # Solidity Assessment
 
 ## MyToken Smart Contract
